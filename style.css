@@ -169,7 +169,7 @@ body{background:var(--cream);color:var(--text);position:relative;}
 .dog-img{
   width:160px;height:160px;object-fit:contain;display:block;
   background:transparent;
-  mix-blend-mode:normal;
+  mix-blend-mode:multiply;
   border:none;
   filter:drop-shadow(0 6px 20px rgba(200,130,160,.3));
 }
