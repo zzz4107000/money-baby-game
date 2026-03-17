@@ -168,6 +168,9 @@ body{background:var(--cream);color:var(--text);position:relative;}
 .dog-wrap.shake{animation:wiggle .4s ease;}
 .dog-img{
   width:160px;height:160px;object-fit:contain;display:block;
+  background:transparent;
+  mix-blend-mode:normal;
+  border:none;
   filter:drop-shadow(0 6px 20px rgba(200,130,160,.3));
 }
 
